@@ -67,12 +67,11 @@ keyRes.addEventListener('click', () => {
     const result = eval(display.innerHTML);
     display.innerHTML = result;
 });
-
+        
 copy.addEventListener('click', () => {
     navigator.clipboard.writeText(display.innerHTML);
     alert('Copied to clipboard');
 });
-
 
 calcTab.addEventListener('click', (event) => {
     calc.classList.toggle('calcShow');
