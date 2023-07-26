@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: larger;
+}
+
+body{
+    background: #eaf3ef;
+
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    left: -27.56rem;
+    transition: all 0.3s;
+}
+
+.calcShow{
+    left: 0;
+    transition: all 0.3s;
+}
+
+.calcMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #8fdd9c;
+    width: 25.5rem;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.calcTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 5rem;
+    background-color: rgba(128, 128,128, 0.5);
+    opacity: 0.7;
+    border-radius: 0rem 0.7rem 0.7rem 0rem;
+    cursor: pointer;
+}
+
+.name{
+    padding: 1rem;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: monospace !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+.divDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 90%;
+    padding: 1rem;
+    height: 1rem;
+    background: #ebf0f3;
+    border-radius: 0.5rem;
+    font-family: monospace !important;
+    overflow: hidden;
+}
+
+.divKeys{
+    width: 100%;
+}
+
+.key{
+    width: 5.12776652rem;
+    height: 6rem;
+    padding: 1rem;
+    margin: auto;
+    margin: 0.4rem;
+    border-radius: 0.5rem;
+    background: #5494cf;
+    color: #fff;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s linear;
+}
+
+.op{
+    background: #037269;
+}
+
+#kEquals{
+    background: #0bb419;
+}
+
+#kEquals:hover{
+    background: #06680e;
+
+}
+
+.key:hover{
+    background: #4172a0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.op:hover{
+    background: #013834;
+}
+
+#kClear{
+    background: #f00;
+}
+
+#kClear:hover{
+    background: rgb(194, 0, 0);
+
+}
+
+.pa{
+    background: #255f8f;
+}
+
+.pa:hover{
+    background: #1a4161;
+}
+
+.copy{
+    background: #bee21c;
+}
+
+.copy:hover{
+    background: #94b117;
+
+}
